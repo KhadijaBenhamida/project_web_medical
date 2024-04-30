@@ -1,0 +1,95 @@
+/* Style général pour la barre de navigation */
+.navbarContainer {
+    padding: 20px;
+    background-color: #333333;
+    color: #fff;
+}
+.navbar-nav .nav-link1{
+    color: #fff;
+}
+.navbar-nav .nav-link2{
+    color: #fff;
+}
+/* Style pour le logo */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    padding:0px 70px 0px 0px;
+}
+
+.nav-item{
+    padding:2px 10px 2px 20px;
+}
+
+.bodySmall {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style pour les boutons */
+.nav-link1, .nav-link2 {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link1, .nav-link2 {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-link1 {
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-link2 {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Style pour les boutons au survol */
+.nav-link1:hover, .nav-link2:hover {
+    opacity: 0.8;
+}
+
+/* Style pour le bouton "Filled" au survol */
+.nav-link2:hover {
+    background-color: #0056b3;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.search-input {
+    margin-right: 0px;
+    padding: 3px 3px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 140px; /* Adjusted width */
+}
+
+.search-button {
+    margin-left:0px;
+    padding: 3px 10px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+.navbar-nav {
+    margin-right: 2px; /* Adjust as needed */
+}
+
